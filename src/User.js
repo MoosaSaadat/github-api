@@ -63,7 +63,7 @@ class User extends Component {
 						</li>
 					</ul>
 					<div className="card-body">
-						<Link to="/github-api" className="btn btn-light">
+						<Link to="/" className="btn btn-light">
 							Go Back
 						</Link>
 						<a href={html_url} className="btn btn-dark ml-3">

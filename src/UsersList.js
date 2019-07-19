@@ -14,7 +14,7 @@ class UsersList extends Component {
 					<div
 						key={user.id}
 						className="col-8 col-sm-5 col-md-4 py-3 text-center">
-						<Link className="names" to={`/github-api/${user.login}`}>
+						<Link className="names" to={`/${user.login}`}>
 							<img
 								className="img img-thumbnail rounded-circle"
 								src={user.avatar_url}

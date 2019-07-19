@@ -18,11 +18,11 @@ class Router extends Component {
 			<Switch>
 				<Route
 					exact
-					path="/github-api"
+					path="/"
 					render={() => <UsersList users={this.props.data} />}
 				/>
-				<Route exact path="/github-api/:username" render={getUser} />
-				<Redirect to="/github-api" />
+				<Route exact path="/:username" render={getUser} />
+				<Redirect to="/" />
 			</Switch>
 		);
 	}
